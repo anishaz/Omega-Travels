@@ -2111,3 +2111,27 @@ footer {
 .logo {
 	display: none;
 }
+
+.box {
+	font-weight: 300;
+	font-size: 16px;
+	max-width: 1170px;
+	display: block;
+	padding-left: 20px;
+}
+
+.airlines-list, .other-list {
+	display: inline-block;
+	width: 360px;
+	margin-right: 10px;
+}
+
+.airlines-list a, .other-list a {
+		display: block;
+		padding: 5px 0;
+}
+
+.airlines-list:last-child {
+	margin-left: 10px;
+	margin-right: 0;
+}
