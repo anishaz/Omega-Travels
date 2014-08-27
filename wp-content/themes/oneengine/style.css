@@ -2146,3 +2146,11 @@ footer {
 	padding: 50px;
 	width: 550px;
 }
+
+.wpcf7-form {
+	color: white;
+}
+
+.wpcf7-form-control-wrap {
+	color: black;
+}
