@@ -118,7 +118,6 @@
                 <div class="clearfix"></div>
                 <?php if(oneengine_option('contact_form') != '') {?>
                 <div class="contact-form-wrapper">
-                	<h2 class="contact-title"><?php echo __('Ready to Enquire?', 'oneengine')?></h2>
                 	<?php echo do_shortcode( oneengine_option('contact_form') ); ?>
                 </div>
                 <?php } ?>
