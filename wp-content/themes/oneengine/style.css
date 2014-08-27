@@ -2117,7 +2117,7 @@ footer {
 	font-size: 16px;
 	max-width: 1170px;
 	display: block;
-	padding-left: 20px;
+	padding: 0 0 60px 20px;
 }
 
 .airlines-list, .other-list {
@@ -2134,4 +2134,15 @@ footer {
 .airlines-list:last-child {
 	margin-left: 10px;
 	margin-right: 0;
+}
+
+.owl-wrapper .item .text-slider p {
+	text-shadow: 1px 2px #eee;
+}
+
+.owl-item.active .item .text-slider {
+	background: #333;
+	opacity: .8;
+	padding: 50px;
+	width: 550px;
 }
